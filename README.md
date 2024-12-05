@@ -59,6 +59,10 @@ This guide is divided into sections with quick-reference tables, examples, and e
 With this guide in hand, you’ll be well-prepared to tackle the PCEP™ exam and build a solid foundation in Python programming.
 
 ---
+This guide includes a **Prompt** near the end that you can use with your favorite GenAI bot (like OpenAI’s ChatGPT, Gemini, or otherwise). The prompt is designed to help you study interactively by simulating real PCEP exam scenarios. Copy and paste the prompt to start practicing today!
+[Study Tool Prompt](#study-tool-prompt)
+
+---
 
 Happy studying, and good luck on your certification journey! 🚀🐍
 
@@ -411,3 +415,161 @@ def configure(*, debug=False):
 
 configure(debug=True)  # Valid
 configure(True)        # Error: Must use keyword
+```
+
+## List of Resources
+
+Here is a curated list of resources to help you deepen your understanding of Python and prepare for the PCEP™ certification exam:
+
+### **Official Python Documentation**
+- [Python Official Documentation](https://docs.python.org/3/)  
+  Comprehensive reference for Python syntax, built-in functions, and libraries.
+
+### **PCEP Certification Resources**
+- [PCEP™ Exam Syllabus](https://pythoninstitute.org/certification/pcep-certification-entry-level/)  
+  Review the official exam objectives to align your study plan.
+- [OpenEDG Python Institute Practice Tests](https://pythoninstitute.org/free-python-resources)  
+  Free practice questions provided by the Python Institute.
+
+### **Books**
+- **“Python Crash Course” by Eric Matthes**  
+  Hands-on introduction to Python fundamentals and projects.  
+  [Link to Book](https://nostarch.com/pythoncrashcourse2e)
+
+### **Online Courses**
+- [Udemy: Python Certification PCEP Course by Ana Uzelac](https://www.udemy.com/)  
+  Mock exams and practice tests designed for PCEP certification.
+- [Coursera: Python for Everybody](https://www.coursera.org/specializations/python)  
+  Specialization in Python programming fundamentals.
+
+### **Interactive Practice Platforms**
+- [HackerRank](https://www.hackerrank.com/domains/tutorials/10-days-of-python)  
+  Solve Python problems and improve coding skills.
+
+### **Cheat Sheets**
+- [Python Basics Cheat Sheet](https://www.datacamp.com/community/tutorials/python-data-science-cheat-sheet-basics)  
+  Quick reference for Python syntax and common functions.
+- [Real Python: Python Basics Cheat Sheet](https://realpython.com/python-cheat-sheet/)  
+  Covers Python fundamentals and best practices.
+
+### **Discussion Forums**
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/python)  
+  Ask and answer Python-related programming questions.
+- [Reddit: r/learnpython](https://www.reddit.com/r/learnpython/)  
+  Community-driven platform for Python learners.
+
+### **Mock Exams**
+- [PCEP Practice Tests on Udemy](https://www.udemy.com/)  
+  High-quality tests mimicking the real PCEP exam.
+- [OpenEDG Mock Exams](https://pythoninstitute.org/free-python-resources)  
+  Free and paid mock exams directly from the Python Institute.
+
+---
+
+# Use This Prompt as a Study Tool with ChatGPT or Gemini
+
+If you're preparing for the **PCEP – Certified Entry-Level Python Programmer** exam, this prompt is designed to help you study effectively using AI-powered tools like **ChatGPT** or **Gemini**. By following the steps below, you can simulate a personalized mock exam experience with detailed explanations for every question.
+
+---
+
+## How to Use the Prompt
+
+1. **Copy the Prompt**: 
+   Copy the provided prompt text and paste it into your preferred AI assistant (e.g., ChatGPT or Gemini).
+
+2. **Start the Session**: 
+   Once the AI is ready, the tool will present you with **one multiple-choice question at a time**.
+
+3. **Answer the Question**: 
+   Type your answer (e.g., "A", "B", or a combination like "A and F" for multiple selections).
+
+4. **Receive Feedback**:
+   - If your answer is correct, the AI will confirm it and provide a detailed explanation.
+   - If your answer is incorrect, the AI will guide you with the correct answer and a comprehensive breakdown of the concept.
+
+5. **Continue at Your Pace**:
+   After each question, the AI will ask if you’re ready for the next one. You can choose to:
+   - Move to the next question.
+   - Pause your session and resume later.
+   - Stop the session at any time.
+
+---
+
+## Study Tool Prompt
+
+Copy the following prompt and use it with ChatGPT or Gemini to simulate a personalized mock exam for the PCEP certification:
+
+---
+
+```
+I am preparing for the PCEP – Certified Entry-Level Python Programmer exam. Help me study by asking me one multiple-choice question at a time. 
+
+Here’s how I’d like the study process to work:
+1. Provide me with a **mock exam-style multiple-choice question**.
+2. Wait for my answer.
+3. Once I answer, evaluate whether my answer is **correct** or **incorrect**.
+   - If my answer is correct, say so and explain why in detail.
+   - If my answer is incorrect, tell me the correct answer and provide a comprehensive explanation to help me understand the topic.
+4. After explaining, ask me: **“Are you ready for the next question?”**
+5. Only provide the next question if I confirm I'm ready.
+
+The mock questions should:
+- Cover key areas of the PCEP syllabus:
+  - Python basics (data types, literals, variables, and operators).
+  - Control flow (loops, conditionals, and exceptions).
+  - Data collections (lists, tuples, dictionaries, and strings).
+  - Functions and their behavior.
+- Be multiple-choice with clear options.
+- Vary in difficulty to simulate the exam experience.
+
+Here are sample questions that match the style of questions I want to practice with:
+
+### **Sample Question 1**: 
+What is the expected result of the following code?
+
+def subtract_and_store(value):
+    return store - value
+ 
+store = 10
+store = subtract_and_store(3)
+store = subtract_and_store(4)
+print(store)
+
+### **Sample Question 2**:
+
+try:
+  x = input("Enter the first value: ")
+  a = len(x)
+  y = input("Enter the second value: ")
+  b = len(y) * 2
+  print(a / b)
+except ZeroDivisionError:
+  print("You can't divide by zero!")
+except ValueError:
+  print("Wrong value error.")
+except:
+  print("Some other error.")
+
+### Example Non-Code Question:
+**Which two of the following statements about Python are true?**
+
+A) Python is case-sensitive, meaning `Variable` and `variable` are treated as different identifiers.  
+B) Python allows multiple inheritance in classes.  
+C) A tuple in Python is mutable, meaning its contents can be changed.  
+D) The `is` operator checks for value equality between two variables.  
+E) Python variables must be declared with a specific type (e.g., `int`, `float`) before being used.  
+F) Python’s `try` block can be used with `except`, `else`, and `finally` clauses.
+
+### Correct Answers:  
+**A)** Python is case-sensitive, meaning `Variable` and `variable` are treated as different identifiers.  
+**F)** Python’s `try` block can be used with `except`, `else`, and `finally` clauses.
+
+Explanation of Answers:
+- **A) Correct.** Python is case-sensitive, treating `Variable` and `variable` as different identifiers.
+- **B) Correct, but not relevant to this question.** Python supports multiple inheritance but is not part of this question's focus.
+- **C) Incorrect.** Tuples are immutable.
+- **D) Incorrect.** The `is` operator checks for object identity, not value equality.
+- **E) Incorrect.** Python does not require explicit type declarations.
+- **F) Correct.** Python’s `try` block can include `except`, `else`, and `finally` clauses for exception handling.
+```
+

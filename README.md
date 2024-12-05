@@ -72,7 +72,7 @@ Happy studying, and good luck on your certification journey! 🚀🐍
 | **Data Structure** | **Description**                  | **Access Methods**                                | **Example**                                                                 |
 |---------------------|----------------------------------|--------------------------------------------------|----------------------------------------------------------------------------|
 | **`list`**          | Mutable ordered collection.     | `append()`, `pop()`, `insert()`, `remove()`.     | `my_list = [1, 2, 3]`<br>`my_list.append(4)` → `[1, 2, 3, 4]`              |
-| **`tuple`**         | Immutable ordered collection.   | `index()`, `count()`.                            | `my_tuple = (1, 2, 3)`<br>`my_tuple[1]` → `2`                              |
+| **`tuple`**         | Immutable ordered collection.   | `index()`, `ount()`.                            | `my_tuple = (1, 2, 3)`<br>`my_tuple[1]` → `2`                              |
 | **`set`**           | Mutable unordered collection.   | `add()`, `remove()`, `discard()`.                | `my_set = {1, 2, 3}`<br>`my_set.add(4)` → `{1, 2, 3, 4}`                   |
 | **`frozenset`**     | Immutable version of `set`.     | `union()`, `intersection()`, `difference()`.     | `my_frozenset = frozenset([1, 2, 3])`<br>`my_frozenset.union({4})` → `{1, 2, 3, 4}` |
 | **`dict`**          | Mutable mapping of key-value pairs. | `get()`, `keys()`, `values()`, `items()`.       | `my_dict = {'a': 1, 'b': 2}`<br>`my_dict['a']` → `1`                       |
@@ -437,7 +437,7 @@ Here is a curated list of resources to help you deepen your understanding of Pyt
   [Link to Book](https://nostarch.com/pythoncrashcourse2e)
 
 ### **Online Courses**
-- [Udemy: Python Certification PCEP Course by Ana Uzelac](https://www.udemy.com/)  
+- [Udemy: Python Certification PCEP Course by Ana Uzelac](https://www.udemy.com/share/108cKO3@USm-LBWgoCGuvSU_9LD7DXaAFAR14aJpr897d8T8V_1ZB5wFny5KgoUs90Tx4Fgz/)  
   Mock exams and practice tests designed for PCEP certification.
 - [Coursera: Python for Everybody](https://www.coursera.org/specializations/python)  
   Specialization in Python programming fundamentals.

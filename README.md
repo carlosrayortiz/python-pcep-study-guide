@@ -72,7 +72,7 @@ Happy studying, and good luck on your certification journey! 🚀🐍
 | **Data Structure** | **Description**                  | **Access Methods**                                | **Example**                                                                 |
 |---------------------|----------------------------------|--------------------------------------------------|----------------------------------------------------------------------------|
 | **`list`**          | Mutable ordered collection.     | `append()`, `pop()`, `insert()`, `remove()`.     | `my_list = [1, 2, 3]`<br>`my_list.append(4)` → `[1, 2, 3, 4]`              |
-| **`tuple`**         | Immutable ordered collection.   | `index()`, `ount()`.                            | `my_tuple = (1, 2, 3)`<br>`my_tuple[1]` → `2`                              |
+| **`tuple`**         | Immutable ordered collection.   | `index()`, `count()`.                            | `my_tuple = (1, 2, 3)`<br>`my_tuple[1]` → `2`                              |
 | **`set`**           | Mutable unordered collection.   | `add()`, `remove()`, `discard()`.                | `my_set = {1, 2, 3}`<br>`my_set.add(4)` → `{1, 2, 3, 4}`                   |
 | **`frozenset`**     | Immutable version of `set`.     | `union()`, `intersection()`, `difference()`.     | `my_frozenset = frozenset([1, 2, 3])`<br>`my_frozenset.union({4})` → `{1, 2, 3, 4}` |
 | **`dict`**          | Mutable mapping of key-value pairs. | `get()`, `keys()`, `values()`, `items()`.       | `my_dict = {'a': 1, 'b': 2}`<br>`my_dict['a']` → `1`                       |
